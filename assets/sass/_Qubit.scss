@@ -1,0 +1,222 @@
+.Qubit {
+  font-size: 16px;
+  text-align: center;
+  padding-top: 60px;
+  h3 {
+    font-weight: 700;
+    font-size: 2, 5em;
+    line-height: 45px;
+    color: #000000;
+  }
+  p {
+    font-weight: 400;
+    font-size: 1.1em;
+    line-height: 30px;
+    color: #000000;
+  }
+  .Qubit_grid {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 60px;
+    gap: 20px;
+    h5 {
+      font-weight: 700;
+      font-size: 1.1em;
+      line-height: 23px;
+      color: #000000;
+      padding: 20px 0;
+    }
+  }
+  .all {
+    font-size: 16px;
+    text-align: center;
+    padding-top: 50px;
+    h2 {
+      font-weight: 700;
+      font-size: 2.5em;
+      line-height: 45px;
+      color: #000000;
+      padding: 30px 0;
+    }
+    p {
+      font-weight: 400;
+      font-size: 1.1em;
+      line-height: 30px;
+      color: #000000;
+    }
+    img {
+      padding: 30px 0;
+    }
+    button {
+      border: none;
+      padding: 10px 15px;
+      font-weight: 400;
+      font-size: 1.1em;
+      line-height: 15px;
+      color: #6f2cff;
+      background: #ffffff;
+      box-shadow: 0px 0px 0px #6f2cff;
+      border-radius: 30px;
+      transition: 0.5s ease-in;
+      cursor: pointer;
+      margin: 0 20px;
+      &:hover {
+        color: #ffffff;
+        background: #6f2cff;
+      }
+    }
+  }
+}
+@media (max-width: 850px) {
+  .Qubit {
+    font-size: 16px;
+    text-align: center;
+    padding-top: 60px;
+    h3 {
+      font-weight: 700;
+      font-size: 2, 5em;
+      line-height: 45px;
+      color: #000000;
+    }
+    p {
+      font-weight: 400;
+      font-size: 1.1em;
+      line-height: 30px;
+      color: #000000;
+    }
+    .Qubit_grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      align-items: center;
+      justify-content: space-between;
+      padding-top: 60px;
+      gap: 20px;
+      h5 {
+        font-weight: 700;
+        font-size: 1.1em;
+        line-height: 23px;
+        color: #000000;
+        padding: 20px 0;
+      }
+    }
+    br {
+      display: none;
+    }
+    .all {
+      font-size: 13px;
+      text-align: center;
+      padding-top: 50px;
+      h2 {
+        font-weight: 700;
+        font-size: 2.5em;
+        line-height: 45px;
+        color: #000000;
+        padding: 30px 0;
+      }
+      p {
+        font-weight: 400;
+        font-size: 1.1em;
+        line-height: 30px;
+        color: #000000;
+      }
+      img {
+        padding: 30px 0;
+      }
+      button {
+        border: none;
+        padding: 10px 15px;
+        font-weight: 400;
+        font-size: 1.1em;
+        line-height: 15px;
+        color: #6f2cff;
+        background: #ffffff;
+        box-shadow: 0px 0px 0px #6f2cff;
+        border-radius: 30px;
+        transition: 0.5s ease-in;
+        cursor: pointer;
+        margin: 0 20px;
+        &:hover {
+          color: #ffffff;
+          background: #6f2cff;
+        }
+      }
+    }
+  }
+}
+@media (max-width: 545px) {
+  .Qubit {
+    font-size: 16px;
+    text-align: center;
+    padding-top: 60px;
+    h3 {
+      font-weight: 700;
+      font-size: 2, 5em;
+      line-height: 45px;
+      color: #000000;
+    }
+    p {
+      font-weight: 400;
+      font-size: 1.1em;
+      line-height: 30px;
+      color: #000000;
+    }
+    .Qubit_grid {
+      display: grid;
+      grid-template-columns: 1fr;
+      align-items: center;
+      justify-content: space-between;
+      padding-top: 60px;
+      gap: 20px;
+      h5 {
+        font-weight: 700;
+        font-size: 1.1em;
+        line-height: 23px;
+        color: #000000;
+        padding: 20px 0;
+      }
+    }
+    br {
+      display: none;
+    }
+    .all {
+      font-size: 10px;
+      text-align: center;
+      padding-top: 50px;
+      h2 {
+        font-weight: 700;
+        font-size: 2.5em;
+        line-height: 33px;
+        color: #000000;
+        padding: 30px 0;
+      }
+      p {
+        font-weight: 400;
+        font-size: 1.1em;
+        line-height: 30px;
+        color: #000000;
+      }
+      img {
+        padding: 30px 0;
+      }
+      button {
+        border: none;
+        padding: 10px 15px;
+        font-weight: 400;
+        font-size: 1.1em;
+        line-height: 15px;
+        color: #6f2cff;
+        background: #ffffff;
+        box-shadow: 0px 0px 0px #6f2cff;
+        border-radius: 30px;
+        transition: 0.5s ease-in;
+        cursor: pointer;
+        margin:10px;
+        &:hover {
+          color: #ffffff;
+          background: #6f2cff;
+        }
+      }
+    }
+  }
+}
